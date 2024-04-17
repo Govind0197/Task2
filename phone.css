@@ -1,0 +1,90 @@
+body {
+    background: #000;
+}
+
+/* Navigation bar */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 2.5rem;
+    padding: 20px;
+
+}
+
+.n-primary {
+    font-size: 3.8rem;
+}
+
+/* Home section  */
+#home {
+    height: 355px;
+    padding: 3px 68px;
+
+}
+
+#home p {
+    font-size: 2.1rem;
+}
+
+#home::before {
+    height: 706px;
+    opacity: 0.55;
+}
+
+/* Button section  */
+.btn {
+    padding: 0px 44px;
+    margin: 25px 14px;
+}
+
+/* Services section  */
+#services {
+    flex-direction: column;
+}
+
+.s-primary {
+    font-size: 3.8rem;
+    padding: 35px 146px 58px 146px;
+    color: white;
+}
+
+.center {
+    font-family: serif;
+    font-size: 1.5rem;
+}
+
+/* Utility class */
+.n-primary {
+    font-size: 2.8rem;
+}
+
+.h-secondry {
+    font-size: 1.2rem;
+    font-family: asans-serif;
+}
+
+/* clints section  */
+#clints {
+    flex-wrap: wrap;
+}
+
+#clints-items img {
+    height: 70px;
+    padding: ;
+}
+
+.client-primary {
+    font-size: 3.8rem;
+}
+
+#client-section::before {
+    opacity: 0.55;
+}
+
+/* contact section  */
+.c-primary {
+    font-size: 3.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
